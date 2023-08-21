@@ -1,7 +1,7 @@
 body {
 	font: 14px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-	color: #3b3b3b;
-	background-color: #380ed1;
+	color: #000000;
+	background-color: hsl(306, 45%, 73%);
 }
 
 h1,h2 {
@@ -9,23 +9,23 @@ h1,h2 {
 }
 
 h1 {
-	border-bottom: 3px solid #380ed1;
-	background-color: #d7d8dd;
-	color: #861d75;
+	border-bottom: 3px solid #f1a1e4;
+	background-color: #f9b6f1;
+	color: #e31ac1;
 	padding: 5px;
 }
 
 h2 {
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-	background-color: #DDD;
+	border-top: 1px solid #e185c1;
+	border-bottom: 1px solid #e77cdc;
+	background-color: #f189f5;
 	padding-left: 5px;
 	margin: 0 0 0 -15px;
 	font-weight: normal;
 }
 
 .secao {
-	background-color: #eee;
+	background-color: #e25d9e;
 	padding-left: 15px;
 }
 
@@ -38,7 +38,7 @@ label {
 
 a {
 	text-decoration:none;
-	color: #f33;
+	color: rgb(230, 13, 158);
 }
 
 
@@ -54,7 +54,7 @@ a {
 }
 
 #menu .ativo {
-	background-color: #ddd;
+	background-color: #ee7cd9;
 }
 
 .vcard {
@@ -69,10 +69,11 @@ a {
 	float: right;
 	margin-right: 20%;
 	border-radius: 20%;
+    width: 250px;
 }
 
 #footnote {
-	border-top: 1px dashed #aaa;
+	border-top: 1px dashed #e259a9;
 	padding: 5px;
 	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
 
@@ -81,5 +82,5 @@ a {
 #footnote li {
 	list-style-type: none;
 	margin-top: 3px;
-	color: #700;
+	color: rgb(154, 9, 111);
 }
